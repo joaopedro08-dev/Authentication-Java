@@ -1,0 +1,1 @@
+# Authentication Basic - Spring-Boot + GraphQL

@@ -1,0 +1,43 @@
+type Mutation {
+  signIn(input: LoginUserInput!): ResponseWithToken!
+  signUp(input: RegisterUserInput!): Response!
+  logout: ResponseWithToken!
+  refreshToken(token: String!): ResponseWithToken!
+}
+
+type Query {
+  getUserInfo: User
+}
+
+type User {
+  id: ID
+  name: String
+  email: String
+  role: String
+  statusSystem: Boolean
+  createdAt: String
+  lastLogin: String
+}
+
+input LoginUserInput {
+  email: String!
+  password: String!
+}
+
+input RegisterUserInput {
+    name: String!
+    email: String!
+    password: String!
+    confirmPassword: String!
+}
+
+type Response {
+  message: String!
+  success: Boolean!
+}
+
+type ResponseWithToken {
+  message: String!
+  success: Boolean!
+  token: String
+}

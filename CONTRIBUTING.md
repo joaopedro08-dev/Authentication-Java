@@ -1,0 +1,1 @@
+# Guia de Contribuição para Authentication Basic - Spring-Boot + GraphQL

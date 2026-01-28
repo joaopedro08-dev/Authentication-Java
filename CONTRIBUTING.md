@@ -49,10 +49,10 @@ To run or contribute locally, ensure the following requirements are met:
 
 ### 🔧 Requirements
 
--   **Java:** 21 (LTS)
+-   **Java:** 21
 -   **Build Tool:** Maven
 -   **Database:** PostgreSQL 18.1
--   **Containerization:** Docker & Docker Compose
+-   **Containerization:** Docker 
 
 ### ⚙️ Spring Profiles
 

@@ -177,7 +177,7 @@ mutation RefreshToken {
 ### Running Locally
 
 ``` bash
-docker build -d authentication-java .
+docker build -t authentication-java .
 ./mvnw spring-boot:run
 ```
 

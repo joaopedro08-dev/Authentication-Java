@@ -171,13 +171,13 @@ mutation RefreshToken {
 ### Requirements
 
 -   Java 21
--   Docker & Docker Compose
+-   Docker
 -   PostgreSQL
 
 ### Running Locally
 
 ``` bash
-docker compose up -d
+docker build -d authentication-java .
 ./mvnw spring-boot:run
 ```
 

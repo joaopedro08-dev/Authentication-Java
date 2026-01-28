@@ -2,7 +2,7 @@ type Mutation {
   signIn(input: LoginUserInput!): ResponseWithToken!
   signUp(input: RegisterUserInput!): Response!
   logout: ResponseWithToken!
-  refreshToken(token: String!): ResponseWithToken!
+  refreshToken: ResponseWithToken!
 }
 
 type Query {

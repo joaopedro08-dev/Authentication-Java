@@ -141,6 +141,7 @@ mutation Logout {
   logout {
     message
     success
+    token
   }
 }
 ```

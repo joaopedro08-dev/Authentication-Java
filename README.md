@@ -1,4 +1,4 @@
-# Secure Java Auth API 🛡️
+# 🛡️ Secure Java Auth API 
 
 A high-performance, enterprise-grade Authentication API built with
 **Java 21**, **Spring Boot 4**, and **GraphQL**.\
